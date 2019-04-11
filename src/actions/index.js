@@ -15,7 +15,7 @@ export const increment = (count) => {
   
   return {
     type: INCREMENT,
-    payload: count++
+    payload: count+=1
   } 
 };
 
@@ -24,6 +24,6 @@ export const decrement = (count) => {
   console.log('click decrement')
   return {
     type: DECREMENT,
-    payload: count--
+     payload: count-=1
   } 
 };
